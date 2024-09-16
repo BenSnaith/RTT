@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "riusabs-time-travel",
+	"version": "${version}",
+	"name": "Riusab's Time Travel",
+	"description": "Riusab's Time Travel",
+	"authors": [
+		"Riusab (Ben Snaith)"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/riusabs-time-travel/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.riusab.rtt.RiusabsTimeTravel"
+		],
+		"fabric-datagen": [
+			"net.riusab.rtt.RiusabsTimeTravelDataGenerator"
+		],
+		"client": [
+			"net.riusab.rtt.RTTClient"
+		]
+	},
+	"mixins": [
+		"riusabs-time-travel.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
