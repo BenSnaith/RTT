@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "riusabs-time-travel:item/raw_entropy"
+  }
+}

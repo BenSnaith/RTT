@@ -1,0 +1,8 @@
+{
+  "item.riusabs-time-travel.raw_entropy": "Raw Entropy",
+  "item.riusabs-time-travel.uncharged_entropy": "Uncharged Entropy",
+  "item.riusabs-time-travel.charged_entropy": "Charged Entropy",
+
+  "block.riusabs-time-travel.uncharged_entropy_block": "Block of Uncharged Entropy",
+  "block.riusabs-time-travel.charged_entropy_block": "Block of Charged Entropy"
+}

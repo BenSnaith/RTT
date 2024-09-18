@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "riusabs-time-travel:block/charged_entropy_block"
+    }
+  }
+}

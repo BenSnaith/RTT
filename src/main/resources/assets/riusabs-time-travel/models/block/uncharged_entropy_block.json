@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "riusabs-time-travel:block/uncharged_entropy_block"
+  }
+}
